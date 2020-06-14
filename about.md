@@ -1,18 +1,16 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello there!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm Maciej and I've started programming professionally in 2014.
+I've been coding mainly in Java and TypeScript but my interests go further than that.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I would like to keep this blog as a log and a reminder to myself of things I've learned and discovered along the way.
 
+I hope that some of my notes will be helpful for you as well!
 
-[jekyll-organization]: https://github.com/jekyll
+If you would like to contact me the best place would be Twitter or LinkedIn.
