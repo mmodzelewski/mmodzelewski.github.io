@@ -7,6 +7,7 @@ url: "http://modzelewski.dev" # the base hostname & protocol for your site, e.g.
 twitter_username: _MModzelewski
 github_username: mmodzelewski
 linkedin_username: maciej-modzelewski
+google_analytics: UA-171727188-1
 
 # Build settings
 markdown: kramdown
