@@ -4,7 +4,8 @@ author: Maciej Modzelewski
 #  Modzelewski on software
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://modzelewski.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _MModzelewski
+twitter_username: climbing_dev
+instagram_username: climbing_dev
 github_username: mmodzelewski
 linkedin_username: maciej-modzelewski
 google_analytics: UA-171727188-1
