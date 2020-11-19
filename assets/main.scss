@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+header {
+  .wrapper {
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-avatar {
+    margin-right: 20px;
+
+    img {
+      height: 80px;
+      border-radius: 50px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #C8C8C8;
+    }
+  }
+}
+
+article.post {
+  width: 100%;
+
+  .post-content {
+    text-align: justify;
+  }
+}

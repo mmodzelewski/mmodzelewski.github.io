@@ -1,9 +1,9 @@
-title: modzelewski.dev
+title: Climbing dev
 author: Maciej Modzelewski
 #description: >- # this means to ignore newlines until "baseurl:"
 #  Modzelewski on software
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://modzelewski.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://climbingdev.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: climbing_dev
 instagram_username: climbing_dev
 github_username: mmodzelewski
