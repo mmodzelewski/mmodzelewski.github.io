@@ -1,5 +1,6 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ "
+  /" | relative_url }}"></data>
 
   <div class="wrapper">
 
@@ -30,13 +31,19 @@
             <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
           </svg>
         </a>
-      </div>
-
-      <div class="footer-col footer-col-3">
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author | escape }}</p>
       </div>
-    </div>
 
+      <div class="footer-col footer-col-2"></div>
+
+      <div class="footer-col footer-col-3">
+        <div class="newsletter-button">
+          <a data-formkit-toggle="d25e8c2ded" href="https://climbingdev.ck.page/d25e8c2ded">
+            Join the Newsletter
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 
 </footer>

@@ -1,4 +1,11 @@
-.newsletter-form {
-  display: flex;
-  justify-content: center;
+.newsletter-button {
+  font-size: 15px;
+  background: #3391dc;
+  padding: 12px 25px;
+  border-radius: 25px;
+
+  a, a:visited, a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }

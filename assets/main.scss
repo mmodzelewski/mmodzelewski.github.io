@@ -7,19 +7,28 @@
 header {
   .wrapper {
     padding: 5px 30px;
-    display: flex;
-    align-items: center;
-  }
 
-  .header-avatar {
-    margin-right: 20px;
+    .custom-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-    img {
-      height: 80px;
-      border-radius: 50px;
-      border-style: solid;
-      border-width: 1px;
-      border-color: #C8C8C8;
+      .title-group {
+        display: flex;
+        align-items: center;
+
+        .header-avatar {
+          margin-right: 20px;
+
+          img {
+            height: 80px;
+            border-radius: 50px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #C8C8C8;
+          }
+        }
+      }
     }
   }
 }
@@ -29,5 +38,14 @@ article.post {
 
   .post-content {
     text-align: justify;
+  }
+}
+
+.site-footer {
+  .wrapper {
+    .footer-col-3 {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 }
