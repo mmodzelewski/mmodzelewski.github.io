@@ -22,6 +22,7 @@ header {
 
           img {
             height: 80px;
+            min-width: 80px;
             border-radius: 50px;
             border-style: solid;
             border-width: 1px;
@@ -29,6 +30,16 @@ header {
           }
         }
       }
+
+      @media(max-width: 480px) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .title-group {
+          margin-bottom: 20px;
+        }
+      }
+
     }
   }
 }
@@ -38,14 +49,5 @@ article.post {
 
   .post-content {
     text-align: justify;
-  }
-}
-
-.site-footer {
-  .wrapper {
-    .footer-col-3 {
-      display: flex;
-      justify-content: flex-end;
-    }
   }
 }

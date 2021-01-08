@@ -4,44 +4,42 @@
 
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank">
-          <svg class="svg-icon">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
-          </svg>
-        </a>
-        <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" target="_blank">
-          <svg class="svg-icon">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
-          </svg>
-        </a>
-        <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}" target="_blank">
-          <svg class="svg-icon">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" target="_blank">
-          <svg class="svg-icon">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
-          </svg>
-        </a>
-        <a href="{{ 'feed.xml' | relative_url }}" target="_blank">
-          <svg class="svg-icon">
-            <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-          </svg>
-        </a>
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author | escape }}</p>
-      </div>
-
-      <div class="footer-col footer-col-2"></div>
-
-      <div class="footer-col footer-col-3">
-        <div class="newsletter-button">
-          <a data-formkit-toggle="d25e8c2ded" href="https://climbingdev.ck.page/d25e8c2ded">
-            Join the Newsletter
+    <div class="footer">
+      <div class="first-column">
+        <div class="social-media">
+          <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank">
+            <svg class="svg-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+            </svg>
+          </a>
+          <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" target="_blank">
+            <svg class="svg-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+            </svg>
+          </a>
+          <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}" target="_blank">
+            <svg class="svg-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" target="_blank">
+            <svg class="svg-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+            </svg>
+          </a>
+          <a href="{{ 'feed.xml' | relative_url }}" target="_blank">
+            <svg class="svg-icon">
+              <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg>
           </a>
         </div>
+        <span>&copy; {{ 'now' | date: "%Y" }} {{ site.author | escape }}</span>
+      </div>
+
+      <div class="last-column">
+        <a data-formkit-toggle="d25e8c2ded" href="https://climbingdev.ck.page/d25e8c2ded" class="newsletter-button">
+          Join the Newsletter
+        </a>
       </div>
     </div>
   </div>
