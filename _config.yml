@@ -10,6 +10,9 @@ github_username: mmodzelewski
 linkedin_username: maciej-modzelewski
 google_analytics: UA-171727188-1
 
+disqus:
+  shortname: climbingdev
+
 # Build settings
 markdown: kramdown
 theme: minima
